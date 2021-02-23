@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="root" prefHeight="339.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.bankSystem.controller.LoginFormController">
+   <children>
+      <TextField fx:id="txtName" layoutX="207.0" layoutY="78.0" prefHeight="31.0" prefWidth="197.0" promptText="User Name" />
+      <TextField fx:id="txtPass" layoutX="207.0" layoutY="128.0" onAction="#txtOnAction" prefHeight="31.0" prefWidth="197.0" promptText="Password" />
+      <Button layoutX="237.0" layoutY="200.0" mnemonicParsing="false" onAction="#btnLoginOnAction" prefHeight="31.0" prefWidth="127.0" text="Login" />
+      <Label layoutX="178.0" layoutY="261.0" onMouseClicked="#lblOnAction" text="No Account yet? Create one Here!" textFill="#1f39e1">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
